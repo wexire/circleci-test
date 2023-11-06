@@ -8,6 +8,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: wexire/terraform-deploy
+    resource_class: wexire/deploy-terraform
     steps:
       - run: echo "Hi I'm on Runners!"
